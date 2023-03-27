@@ -17,7 +17,7 @@ No final iremos responder utilizando a "clusterização" qual grupo de partidos 
 ## Etapas do projeto
 
 1) Tratamento dos dados
- Download do arquivo no site <a href="https://dadosabertos.camara.leg.br/swagger/api.html#staticfile">*dados abertos*</a>
+  - Download do arquivo no site <a href="https://dadosabertos.camara.leg.br/swagger/api.html#staticfile">*dados abertos*</a>
  - Consolidação dos valores gastos por partido
  - Média de gastos por partido (despesas total do partido / total de políticos)
 
