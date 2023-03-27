@@ -7,6 +7,6 @@ Nesse repositório constam projetos de *Data Science* com algoritmos de *Machine
 ### Aprendizado não supervisionado
 
 **Projeto 1 - Clustering de partidos políticos**<br>
-O objetivo desse estudo foi identificar quais partidos gastaram mais no ano de 2022. Usando dados do site <a href="https://dadosabertos.camara.leg.br/swagger/api.html#staticfile">dados abertos</a> agrupei os partidos em 4 grupos.
+O objetivo desse estudo foi identificar quais partidos gastaram mais no ano de 2022. Usando dados do site <a href="https://dadosabertos.camara.leg.br/swagger/api.html#staticfile">*dados abertos*</a> agrupei os partidos em 4 grupos.
 
 
