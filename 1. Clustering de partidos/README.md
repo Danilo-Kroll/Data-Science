@@ -34,4 +34,4 @@ arquivo final: gastos-2022.csv (em anexo).
 
 3) Conclusão
  - Resultado analisado pelo cientista de dados
- - Resultado disponibilizado no Power BI para a comunidade tirar suas próprias concluções. <a href="https://app.powerbi.com/view?r=eyJrIjoiNWI4ZjQ0MzMtY2Q2MS00M2E3LTllMDQtYTViYTE1MTZiMmI5IiwidCI6ImM1MWE2OGQ1LTgwNGItNGZhYi05YTJjLTBiNmI2ODU2NmJhOCJ9">Clique aqui</a>.
+ - Resultado disponibilizado no Power BI para a comunidade tirar suas próprias concluções. <a href="https://app.powerbi.com/view?r=eyJrIjoiNWI4ZjQ0MzMtY2Q2MS00M2E3LTllMDQtYTViYTE1MTZiMmI5IiwidCI6ImM1MWE2OGQ1LTgwNGItNGZhYi05YTJjLTBiNmI2ODU2NmJhOCJ9" target="_blank">Clique aqui</a>.
