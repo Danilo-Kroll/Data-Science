@@ -12,7 +12,7 @@ No final iremos responder utilizando a "clusterização" qual grupo de partidos 
 
 ## Método aplicado
 
-1) K-Means
+K-Means
 
 ## Etapas do projeto
 
