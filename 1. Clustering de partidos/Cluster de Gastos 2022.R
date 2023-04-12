@@ -2,8 +2,11 @@
 
 ### O objetivo desse estudo é segmentar os partidos para avaliar quais possuem 
 ### um maior nível de gastos em relação as categorias de despesas que julgo serem
-### irrelevantes para um partalentar desperdiçar nosso dinheiro, tendo em vista
-### que deveria ser usado para outros fins do nosso país.
+### 1. COMBUSTIVEIS E LUBRIFICANTES
+### 2. DIVULGACAO DA ATIVIDADE PARLAMENTAR TOTAL
+### 3. TELEFONIA
+
+#### Aplicação na linguagem R ####
 
 # Instalação e carregamento dos pacotes
 pacotes <- c("plotly", #plataforma gráfica
@@ -47,8 +50,8 @@ summary(base)
 ## Em geral, quando há a dobra é um indício do número ótimo de clusters
 fviz_nbclust(base[,3:5], kmeans, method = "wss", k.max = 10)
 
-# Número ótimo de cluster: 4
-# Elaboração da clusterização não hieráquica k-means
+# Ao aplicar o Método de Elbow é possível identificar que um número ótimo de cluster seria até 4
+# Elaboração da clusterização não hieráquica k-means com 4 cluster
 cluster_kmeans <- kmeans(base[,3:5],
                          centers = 4)
 
@@ -65,7 +68,7 @@ base %>%
                 full_width = FALSE,
                 font_size = 20)
 
-# Identificar a quantiade em cada cluster
+# Identificação da quantiade de partidos por cluster
 summary(base$cluster_K)
 
 # Médias dos Cluster
@@ -74,14 +77,11 @@ análise_K <- group_by(base, cluster_K) %>%
             DIVULGACAO = mean(DIVULGACAO),
             TELEFONIA = mean(TELEFONIA))
 
+###### Conclusão #####
 # Analise dos cluster:
-# Cluster 1 - Possui o menor gasto
-# Cluster 3 - São os partidos que possuem o maior gasto, ou seja, é o grupo que a 
-# proposta do estudo desejava encontrar.
+# Cluster 1 - Possui o grupo de partidos que tiveram o menor gasto no amo de 2022.
+# Cluster 3 - São os partidos que possuem o maior gasto, ou seja, é o grupo que a proposta do estudo desejava encontrar.
 # Cluster 2 e 4 - São gastos consideravéis, porém não maiores que o cluster 3
 
-# Criando arquivo com a coluna de Cluster
+# Salvando em CSV o arquivo com a coluna de Cluster
 write.csv(base, file = "gastos-2022-cluster.csv", row.names = F)
-
-
-
