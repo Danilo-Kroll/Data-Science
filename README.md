@@ -1,6 +1,6 @@
 # Data Science
 
-Nesse repositório constam projetos de *Data Science* com algoritmos de *Machine Learning* de aprendizado supervisionado e não supervisionado.
+Nesse repositório constam projetos de *Data Science* com algoritmos de *Machine Learning* de aprendizado supervisionado e não supervisionado aplicado na linguagem R.
 
 ## Projetos
 
