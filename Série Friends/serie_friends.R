@@ -1,13 +1,4 @@
-# Exemplo com o script da Série Friends
-
-# https://medium.com/swlh/text-analytics-on-friends-tv-series-10-episodes-42875804f3a6
-
-# https://github.com/NeilEcosse/text_analysis_friends
-
-# https://github.com/rfordatascience/tidytuesday/issues/254
-
-
-### Aplicação Dkroll
+##--- TEXT MINING COM DADOS DA SÉRIE FRIENDS
 
 ##--- CARREGANDO PACOTES E TRATANDO OS DADOS
 
