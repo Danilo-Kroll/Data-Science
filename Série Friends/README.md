@@ -1,6 +1,6 @@
 ## Objetivo do projeto
 
-Identificar por meio das técinas de Text Mining alguns características dos diálogos da série Friends:
+Identificar por meio da técnina de Text Mining algumas características dos diálogos da série Friends, como:
 
 1. PERSONAGEM COM MAIS DIÁLOGO AO LONGO DAS 10 TEMPORADAS
 2. QUANTIDADE DE VEZES QUE A FAMOSA FRASE DO JOEY (How you doing) FOI DITA NA SÉRIE
@@ -12,7 +12,7 @@ Text Mining
 
 ## Etapas do projeto
 
-1) Caregamento dos pacotes e tratamento dos dados
+1) Dados
  - O dataset utilizado se encontra no pacote "friends":
    install.packages("friends")
    library("friends")
@@ -22,5 +22,5 @@ Text Mining
  - Importação das bibliotecas
  - Importação dos dados
  - Análise exploratória dos dados
- - Utilização da técnica de TOKEZINHAÇÃO (Text Mining)
+ - Utilização da técnica de TOKENIZAÇÃO
  - Visualização das palavras mais usadas em fomato de NUVEM DE PALAVRAS
