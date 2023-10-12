@@ -12,4 +12,4 @@ O objetivo desse estudo foi identificar quais partidos gastaram mais no ano de 2
 ### Aprendizado supervisionado
 
 **Projeto 1 - Text Mining**<br>
-Com a utilização de técnicas de Text Mining analisei os diálogos de uma das séries mais amadas para identificar as palavras mais usadas, personagem com mais diálogo, personagem mais positvo e negativo, entre outros.
+Com a utilização de técnicas de NLP (Neural Processor Language) analisei os diálogos de uma das séries mais amadas para identificar as palavras mais usadas, personagem com mais diálogo, personagem mais positvo e negativo, entre outros.
