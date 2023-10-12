@@ -12,4 +12,4 @@ O objetivo desse estudo foi identificar quais partidos gastaram mais no ano de 2
 ### Aprendizado supervisionado
 
 **Projeto 1 - Text Mining**<br>
-Analise de texto da série Friends
+Análise de texto da série Friends
