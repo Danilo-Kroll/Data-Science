@@ -11,7 +11,8 @@ O objetivo desse estudo foi identificar quais partidos gastaram mais no ano de 2
 
 ### Aprendizado supervisionado
 
-**Projeto 1 - Clustering de partidos políticos**<br>
+**Projeto 1 - Árvore de Decisão - Sobreviver ao Titanic**<br>
+Em breve...
 
 ### NLP (Natural Language Processing)
 
