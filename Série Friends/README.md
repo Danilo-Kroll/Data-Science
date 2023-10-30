@@ -1,6 +1,6 @@
 ## Objetivo do projeto
 
-Identificar por meio da técnina de Text Mining algumas características dos diálogos da série Friends, como:
+Fazer uma análise exploratória dos dados e por meio da técnina de Text Mining indentificar as palavras em Inglês mais usadas na série:
 
 1. PERSONAGEM COM MAIS DIÁLOGO AO LONGO DAS 10 TEMPORADAS
 2. QUANTIDADE DE VEZES QUE A FAMOSA FRASE DO JOEY (How you doing) FOI DITA NA SÉRIE
